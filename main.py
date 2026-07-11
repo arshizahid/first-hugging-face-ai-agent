@@ -73,8 +73,8 @@ def find_working_model(candidates: list[str], hf_token: str) -> str:
     """
     Returns the first model in `candidates` that actually responds to a
     real request right now. We don't rely on model_info()'s "warm" flag
-    alone -- it can say a model is warm even when the router rejects it --
-    so we send a tiny live test message to confirm.
+    alone -- it can say a model is warm even when the router rejects it 
+    -- so we send a tiny live test message to confirm.
     """
     from huggingface_hub import InferenceClient
 
