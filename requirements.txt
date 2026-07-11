@@ -1,0 +1,7 @@
+smolagents
+requests
+langchain-huggingface
+huggingface_hub
+python-dotenv
+pydantic
+ddgs
